@@ -1,11 +1,15 @@
 {
   "name": "breezys-spotify-backup",
-  "module": "index.js",
-  "type": "module",
-  "devDependencies": {
-    "bun-types": "latest"
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:zachBridges/breezys-spotify-backup.git",
+  "author": "Zach Bridges <zachery.bridges@skillshare.com>",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.6.2",
+    "jest": "^29.7.0"
   },
-  "peerDependencies": {
-    "typescript": "^5.0.0"
+  "scripts": {
+    "test": "jest"
   }
 }
